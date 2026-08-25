@@ -5,7 +5,7 @@
     "moduleResolution": "nodenext",
     "strict": true,
     "noEmit": true,
-    "erasableSyntaxOnly": true,
+    "erasableSyntaxOnly": false,
     "allowImportingTsExtensions": true,
     "skipLibCheck": true
   }
