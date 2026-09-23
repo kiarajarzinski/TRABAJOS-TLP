@@ -1,6 +1,6 @@
     //service se encarga de hacer tareas especificas, en este caso de calcular el salario final de un empleado y le pide a repository que guarde estos datos 
     
-    import { EmployeeRepository } from '../repository/repository';
+    import { EmployeeRepository } from '../repository/EmployeeRepository';
     export class EmployeeService {
       private employeeRepository : EmployeeRepository;
     
