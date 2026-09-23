@@ -1,10 +1,14 @@
 import 'dotenv/config';
 import express from 'express';
 import mongoose from 'mongoose';
+import router from './routes/EmployeeRoutes';
+import { errorHandler } from './middlewares/errorHandler';
 
 const app = express();
 
 app.use(express.json());
+app.use( '/employees', router);
+app.use(errorHandler);
 
 
 
